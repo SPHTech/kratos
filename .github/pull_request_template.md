@@ -1,60 +1,31 @@
-<!--
-Describe the big picture of your changes here to communicate to the maintainers why we should accept this pull request.
+## Contents
 
-This text will be included in the changelog. If applicable, include links to documentation or pieces of code.
-If your change includes breaking changes please add a code block documenting the breaking change:
+1. [Summary](#summary)
+2. [Links](#links)
+3. [Test Plan](#test-plan)
 
-```
-BREAKING CHANGES: This patch changes the behavior of configuration item `foo` to do bar. To keep the existing
-behavior please do baz.
-```
--->
+## Summary
 
-## Related issue(s)
+// What changes are made / introduced in this PR?
 
-<!--
-If this pull request
+### Problem
 
-1. is a fix for a known bug, link the issue where the bug was reported in the format of `#1234`;
-2. is a fix for a previously unknown bug, explain the bug and how to reproduce it in this pull request;
-3. implements a new feature, link the issue containing the design document in the format of `#1234`;
-4. improves the documentation, no issue reference is required.
+// Give a TL;DR, one sentence summary on the feature, issue, bug to resolve.
 
-Pull requests introducing new features, which do not have a design document linked are more likely to be rejected and take on average 2-8 weeks longer to
-get merged.
+### Solution
 
-You can discuss changes with maintainers either in the Github Discussions in this repository or
-join the [Ory Chat](https://www.ory.sh/chat).
--->
+// Give detailed explanation on the solution. What is the fix? Why do we need to do it this way? How does it resolve the error?
 
-## Checklist
+## Links
 
-<!--
-Put an `x` in the boxes that apply. You can also fill these out after creating the PR.
+// JIRA card link, any published API docs, confluence etc.
 
-Please be aware that pull requests must have all boxes ticked in order to be merged.
+## Test Plan
 
-If you're unsure about any of them, don't hesitate to ask. We're here to help!
--->
+// How did you test your code?
+// If you can't test this locally, describe how you will test it after the PR is merged
+// Add details about how you setup your test (if any), and screenshots of the test results whenever possible
 
-- [ ] I have read the [contributing guidelines](../blob/master/CONTRIBUTING.md).
-- [ ] I have referenced an issue containing the design document if my change
-      introduces a new feature.
-- [ ] I am following the
-      [contributing code guidelines](../blob/master/CONTRIBUTING.md#contributing-code).
-- [ ] I have read the [security policy](../security/policy).
-- [ ] I confirm that this pull request does not address a security
-      vulnerability. If this pull request addresses a security vulnerability, I
-      confirm that I got the approval (please contact
-      [security@ory.sh](mailto:security@ory.sh)) from the maintainers to push
-      the changes.
-- [ ] I have added tests that prove my fix is effective or that my feature
-      works.
-- [ ] I have added or changed [the documentation](https://github.com/ory/docs).
+### Test Method
 
-## Further Comments
-
-<!--
-If this is a relatively large or complex change, kick off the discussion by explaining why you chose the solution
-you did and what alternatives you considered, etc...
--->
+### Test Results

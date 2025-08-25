@@ -16,6 +16,7 @@ COPY internal/client-go/go.* internal/client-go/
 ENV GO111MODULE on
 ENV CGO_ENABLED 1
 ENV CGO_CPPFLAGS -DSQLITE_DEFAULT_FILE_PERMISSIONS=0600
+ENV GOPROXY=https://proxy.golang.org,direct
 
 RUN go mod download
 
