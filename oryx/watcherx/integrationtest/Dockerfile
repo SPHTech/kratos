@@ -13,7 +13,7 @@ ADD . .
 
 RUN go build -o /usr/bin/eventlogger ./watcherx/integrationtest
 
-FROM alpine:3.22
+FROM alpine:3.23
 
 COPY --from=builder /usr/bin/eventlogger /usr/bin/eventlogger
 
