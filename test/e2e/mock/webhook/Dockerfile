@@ -1,4 +1,4 @@
-FROM golang:1.21-alpine AS build
+FROM golang:1.26-alpine3.23 AS build
 
 WORKDIR /build
 
@@ -7,7 +7,7 @@ ADD . .
 RUN cat go.*
 RUN CGO_ENABLED=0 GOARCH=amd64 GOOS=linux go build -ldflags "-s -w -extldflags '-static'" -o ./app main.go
 
-FROM alpine
+FROM alpine:3.23
 
 WORKDIR /app
 
